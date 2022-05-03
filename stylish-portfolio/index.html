@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Rally Tour Amsterdam</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!-- Add custom CSS here -->
+    <link href="css/stylish-portfolio.css" rel="stylesheet">
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <!-- Full Page Image Header Area -->
+    <div id="top" class="header">
+      <div class="vert-text">
+        <h1>RT109 RALLY TOUR AMSTERDAM <br> 2022 EDITION</h1>
+        <h3></h3>
+      </div>
+    </div>
+    <!-- /Full Page Image Header Area -->
+  
+    <!-- Intro -->
+    <div id="about" class="intro">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-md-offset-3 text-center">
+            <h2>Na een paar jaar zonder grote evenementen komt de RT109: Rally Tour Amsterdam weer terug!</h2>
+            <p class="lead">Op zaterdag 11 juni 2022 organiseren wij als Ronde Tafel 109 een geheel verzorgde rally in en rond Amsterdam ten behoeve van De Regenboog Groep, een maatschappelijke organisatie die zich inzet voor kansarmen in de regio Amsterdam. We sluiten af met een borrel bij IJver. <br> <br>
+
+              <a href=https://guts.events/kdq3e8-rt109-rally-tour-amsterdam/knbah7?page=tickets class="btn btn-default btn-lg">Kaartjes koop je hier via GUTS</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /Intro -->
+
+  <!-- Services -->
+    <div id="services" class="services">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 col-md-offset-4 text-center">
+            <h2>Info</h2>
+            <hr>
+          </div>
+        </div>
+        <div class="row">
+              <p>Inschrijfgeld is €150 voor een equipe van 2 personen, €195 voor een equipe van 3 personen en € 230 euro voor een equipe van 4 personen. De opbrengst van deze rally zal geheel ten goede komen aan De Regenboog Groep. De prijzen van de kaartjes zijn voor de organisatie kostendekkend. Tenzij je kiest voor een Vrienden van de rally kaartje of om een extra donatie te doen tijdens het afrekenen. <br><br>
+
+Er kunnen 50 equipes deelnemen. Vol = vol, dus koop jouw kaartje snel! Ken jij vrienden, familie of collega’s die dit ook leuk vinden? Deel deze informatie snel zodat zij zich ook kunnen aanmelden! <br> <br>
+
+Om zoveel mogelijk geld op te halen voor De Regenboog Groep zoeken we ook sponsoren. Als je met jouw bedrijf een extra bijdrage wilt leveren of je kent iemand die dit mogelijk wil doen, neem dan contact op met de organisatie via rallytouramsterdam@gmail.com of rechtstreeks met Daan Haeck (06-11305768 – dhaeck@vondel-finance.nl) om de mogelijkheden te bespreken.</p>
+        </div>
+      </div>
+    </div>
+    <!-- /Services -->
+
+
+    <!-- Map -->
+    <div id="contact" class="map">
+      <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2434.295113352139!2d4.892857115868011!3d52.4013274797919!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c609be7c1319e9%3A0xd8b8377c080d36bd!2sIJver%20Amsterdam!5e0!3m2!1snl!2sbe!4v1651582024666!5m2!1snl!2sbe" ></iframe>
+    </div>
+    <!-- /Map -->
+    
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-md-offset-3 text-center">
+            <ul class="list-inline">
+            <div class="top-scroll">
+              <a href="#top"><i class="fa fa-circle-arrow-up scroll fa-4x"></i></a>
+            </div>
+            <hr>
+            <p>Neem contact op met de organisatie via rallytouramsterdam@gmail.com of rechtstreeks met Daan Haeck (06-11305768 – dhaeck@vondel-finance.nl)</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- /Footer -->
+
+    <!-- JavaScript -->
+    <script src="js/jquery-1.10.2.js"></script>
+    <script src="js/bootstrap.js"></script>
+
+    <!-- Custom JavaScript for the Side Menu and Smooth Scrolling -->
+    <script>
+        $("#menu-close").click(function(e) {
+            e.preventDefault();
+            $("#sidebar-wrapper").toggleClass("active");
+        });
+    </script>
+    <script>
+        $("#menu-toggle").click(function(e) {
+            e.preventDefault();
+            $("#sidebar-wrapper").toggleClass("active");
+        });
+    </script>
+    <script>
+      $(function() {
+        $('a[href*=#]:not([href=#])').click(function() {
+          if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') 
+            || location.hostname == this.hostname) {
+
+            var target = $(this.hash);
+            target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+            if (target.length) {
+              $('html,body').animate({
+                scrollTop: target.offset().top
+              }, 1000);
+              return false;
+            }
+          }
+        });
+      });
+    </script>
+
+  </body>
+
+</html>
